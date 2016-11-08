@@ -10,6 +10,8 @@ first_published: 2016 # if migrating another site, the year of your first publis
 email: your-email@domain.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
+host: "127.0.0.1"
+port: "4000"
 social:
   #twitter: https://twitter.com/<username>
   #github: https://github.com/Project-Quantum/Quantum-Starter-Kit
