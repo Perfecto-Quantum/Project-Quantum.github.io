@@ -914,11 +914,11 @@ $baseurl: '{{ site.baseurl }}/images';
 			&:before {
 				display: block;
 				//color: _palette(accent2, bg);
-                color: #ffffff;
+                color: #82bc41;
 				position: absolute;
 				left: 0.75em;
 				top: 2.00em;
-				font-size: 2.5em;
+				font-size: 2.3em;
 			}
 
 			&:nth-child(1) {
@@ -1510,6 +1510,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				content: '';
 				display: block;
 				height: 2px;
+                background-color: #82bc41;
 				position: absolute;
 				width: 100%;
 			}
@@ -1528,7 +1529,8 @@ $baseurl: '{{ site.baseurl }}/images';
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
-
+            margin-left: 15%;
+            margin-right: 15%;
 			a {
 				color: inherit;
 			}
