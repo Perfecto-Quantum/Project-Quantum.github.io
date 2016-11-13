@@ -894,13 +894,14 @@ $baseurl: '{{ site.baseurl }}/images';
 		width: 100%;
 
 		li {
-			@include padding(4em, 4em, (0,0,0,2em));
+			@include padding(2em, 4em, (0,0,0,2em));
 			display: block;
 			position: relative;
 			text-align: left;
 			width: 45%;
             margin: 10px;
-            height: 400px;
+            //max-height: 400px;
+            height: 350px;
 
 			@for $i from 1 through _misc(max-features) {
 				$j: 0.035 * $i;
@@ -917,7 +918,7 @@ $baseurl: '{{ site.baseurl }}/images';
                 color: #82bc41;
 				position: absolute;
 				left: 0.75em;
-				top: 2.00em;
+				top: 1.25em;
 				font-size: 2.3em;
 			}
 
